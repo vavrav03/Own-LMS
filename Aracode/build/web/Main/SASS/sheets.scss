@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+/*https://visme.co/blog/website-color-schemes/ ///////////////////////23*/
+$first: #252525;
+$second: #F4F4F4;
+$third: #C0B283;
+$fourth: #DCD0C0;
+$maxWidth: 1120px;
+
+#logoImage{
+    height: 35px;
+}
+
+html, body{
+    margin:0px;
+    height:100%;
+    display:flex; 
+    flex-direction:column;
+    background-color: $second;
+}
+
+nav{
+    background-color: $first;
+    color: white;
+}
+
+.container-fluid{
+    max-width: $maxWidth;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.navbar-brand{
+    max-height: 100%;
+}
+
+.active{
+    color: white;
+    background-color: $first;
+    font-family: "apercu",sans-serif;
+}
+
+.active:focus{
+    font-weight: bold;
+}
+
+.active:hover {
+    background-color: $first + 20;
+}
+
+#first{
+    background-color: $second;
+}
+
+#second{
+    background-color: $second;
+}
+
+footer{
+    color:white;
+    background-color: $first;
+    clear: both;
+    position: relative;
+    margin-top:auto; 
+}
+
+.list-unstyled{
+    margin-bottom: 0px;
+}
+
+.footer-icon{
+    width: 30px;
+}
+
+.test-icon{
+    width: 25px;
+}
+
+.choose-toggle-icon{
+    width:11px;
+}
+
+.chevron-icon{
+    width: 27px;
+}
+
+.small-chevron-icon{
+    width: 16px;
+}
+
+.badge-rounded{
+    margin: 3px;
+    height: 30px;
+    width: 30px;
+}
+
+.question-menu{
+    max-width: 70px;
+    min-width: 70px;
+}
+
+.remove-fill-option{
+    max-width: 35px;
+    min-width: 35px;
+}
+
+.word{
+    min-width:140px;
+}
+
+.index-icon:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.test-div{
+    display:none;
+    padding-bottom: 16px;
+}
+
+#test-navbar{
+    background-color:$second;
+}
+
+.question{
+    background-color:$second - 20;
+}
+
+.test-headding{
+    background-color:$second - 40;
+}
+
+.option-min-width{
+    min-width: 50%;
+}
+
+.order-question{
+    margin: 0px 0px 0px 15px;
+    padding-right: 15px;
+}
+
+.order-option {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.question-text-input{
+    overflow:auto;
+}
+
+.question-text{
+    display:none;
+}
+
+[placeholder]:empty::before {
+    content: attr(placeholder);
+    color: #495057; 
+}
+
+[placeholder]:empty:focus::before {
+    content: "";
+}
+
+.test-chooser span {
+    color: black;
+}
+
+.class-chooser span {
+    color:black
+}
+
+[type="checkbox"]{
+    vertical-align:middle;
+}
+
+label{
+    margin:0px;
+}
+
+thead{
+    background-color: $first;
+    color: white;
+}
+
+tfoot{
+    font-weight: bold;
+}
+
+.test-description-title a{
+    color: black;
+}
+
+.test-description-title a:after {
+    font-family:FontAwesome;
+    content:'\f077';
+    float:right;
+    font-size:11px;
+}
+
+.test-description-title a.collapsed:after {
+    font-family:FontAwesome;
+    content:'\f078';
+}
+
+.test-result-points{
+    padding-left: 4px;
+    padding-right: 4px;
+    min-width:116px;
+    width: 140px;
+}
+
+.test-result-deadline{
+    width: 180px;
+}
+
+.table{
+    margin-bottom: 8px;
+}
+
+.table td {
+    padding:0.5em;
+}
+
+.test-grade-1{
+    background-color: #99ff99;
+}
+
+.test-grade-2{
+    background-color: #cccc00;
+}
+
+.test-grade-3{
+    background-color: #ffaa00;
+}
+
+.test-grade-4{
+    background-color: #ffaa99;
+}
+
+.test-grade-5{
+    background-color: #ff6666;
+}
+
+.cell-with-button{
+    position:relative;
+}
+
+.test-name{
+    min-width: 201px;
+}
+
+.cell-with-button input{
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
