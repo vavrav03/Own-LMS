@@ -22,3 +22,5 @@ Použité technologie: <br>
 -HTML<br>
 -CSS (Moje první designování a první stylování s CSS --> nevypadá to moc hezky. Sloužilo to hlavně, abych se na tom ty technologie naučil)<br>
 -Bootstrap
+
+![posterimage](https://user-images.githubusercontent.com/68499432/166070272-2c205786-8445-4f13-b2a8-b0346a7af9cd.png)
