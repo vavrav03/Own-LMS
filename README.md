@@ -16,7 +16,7 @@ CZ: Vlastní verze LMS - Ročníkový projekt 2. ročníku střední školy. Ten
 Anotace: Program poskytuje možnost testovat úlohy vytvořené jako součást ročníkového projektu. Testování je prováděno formou kvízových otázek. Hlavní důraz je kladen na automatické vyhodnocování odpovědí. Kvízy jsou tím pádem automaticky vyhodnoceny ihned po odeslání. Program také obsahuje vlastní implementaci bezpečné a funkční lokální autentifikace.
 
 Použité technologie: <br>
--SQL <br><br>
+-SQL <br>
 -Java EE (Servlets, JSP, ...)<br>
 -Vanilla Javascript na frontend (Tehdy jsem neznal React)<br>
 -HTML<br>
